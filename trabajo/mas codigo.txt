@@ -1,0 +1,45 @@
+<div onclick="saluda(this)" id="a" class="saludo">Hola </div> 
+
+<img src="flor.jpg" alt="Dibujo de una flor" title="Dibujo de una flor" ></img>
+
+
+
+
+  
+   .Contenido {
+    float: right;
+  display: block;
+  padding: 0 5px 5px 5px;
+  margin-right:10%;
+  overflow:hidden;
+    /*width: 450 px;*/
+	width: 70%;
+    height: auto;
+    background: #800080;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  font-family: 'Risque', cursive;
+  color:black;
+  font-size:20px;
+  -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+border-radius:40px;
+
+background: -webkit-linear-gradient(#800080,#008000);
+
+background: -moz-linear-gradient(#800080,#008000);
+
+background: -o-linear-gradient(#800080,#008000);
+
+background: linear-gradient(#800080,#008000);
+
+}
+
+
+
+
+
+<article id="Contenido">
+<p> Esta es una pagina donde podras encontrar todo acerca de juegos y ocio, donde podras pasar un rato divertido, compartiendo juegos
+    con otros jugadores on-line. </p>
+</article>
