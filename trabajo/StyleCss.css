@@ -36,9 +36,6 @@ img {width:70px;}
 
 <div onclick="saluda(this)" id="a" class="saludo"> Hola </div> 
 
-
-
-
 nav{
     /*Bordes redondeados*/
 	margin: 0 0px 0 0;
@@ -106,14 +103,6 @@ nav ul li a{
 }
 
 
-/*
-nav li:hover ul{
-    opacity:1;
-	visibility:visible;
-}
-*/
-
-
 nav ul li a:hover {
 	color: blue;
 }
@@ -167,14 +156,14 @@ nav ul li:hover{
 	background-color: #063;
 	position: relative;
 	border-left: 2px solid #333;
+	
  
 }
+
 .menu li a:hover{
 	color:#CF3;
 	background-color:#603;
 }
-
-
 
 
 
