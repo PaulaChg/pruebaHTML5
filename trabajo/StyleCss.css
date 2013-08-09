@@ -1,17 +1,18 @@
 
 footer{
-	float:left
-	margin: 10 10 10 10;
-}
-
-article{
-	/*margin: 20% 0% 80% 75%;*/
-	margin: 0% 5% 0% 83%;
+	float:left;
 	
 }
 
-section{
-margin: 0;
+article#datos{
+	/*margin: 20% 0% 80% 75%;*/
+	margin: 0% 3% 0% 75%;
+    /*font-size: 16px;	*/
+}
+
+
+section#busca{
+margin: 0% 5% 0% 75%;
 }
 
 
@@ -27,9 +28,9 @@ h1{
     background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
 	
 	}
+	
 body{
     background:#3CF;
-	
 }
 
 img {width:70px;}
@@ -74,7 +75,7 @@ nav ul li{
     border-radius:5px;/*Estandar por defecto*/
     float:left;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
+    font-size:14px;
     font-weight:bold;
     margin-right:10px;
     text-align:center;
@@ -106,12 +107,12 @@ nav ul li a{
 }
 
 
-/*
+
 nav li:hover ul{
     opacity:1;
 	visibility:visible;
 }
-*/
+
 
 
 nav ul li a:hover {
@@ -148,16 +149,18 @@ nav ul li:hover{
 	padding:0px;
 	margin:0px;
 }
-.menu li{
+.menu li {
 	margin:0px;
 	padding:0px;
 	float:left;
 	position:relative;
-	box-shadow: 2px 2px 4px 1px #000;	
+	box-shadow: 2px 2px 4px 1px #000;
 }
+
+
 .menu li a{
 	display: block;
-	width: 100px;
+	width: 90px;
 	height: 30px;
 	padding: 6px;
 	line-height:30px;
@@ -167,6 +170,7 @@ nav ul li:hover{
 	background-color: #063;
 	position: relative;
 	border-left: 2px solid #333;
+	
  
 }
 .menu li a:hover{
@@ -177,9 +181,40 @@ nav ul li:hover{
 
 
 
+.detalles li{
+   float: left;
+}
+
+
+section#mario{
+margin: 40% 15% 0% 55%;
+}
+   
 
 
 
+   
+   
+/* ESTABA INTENTANDO HACER UN SUBMENU DESPLEGABLE PERO NO SOY CAPAZ DE HACERLO */
+/*
+.menu li#menuprin:hover ul{
+    opacity:1;	
+	visibility: visible;
+	
+}
+
+.menu li#menuprin{
+opacity: 1;
+visibility: visible;
+}
+
+.menu li#submenu {
+display: none;
+opacity: 1;
+visibility: visible;
+}
+
+*/
 
 
 
