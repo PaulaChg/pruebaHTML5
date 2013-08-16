@@ -15,7 +15,9 @@
 
 <script>
    function enviar() {
-	alert("Estas entrando en una pagina de apuestas. Pulsa Aceptar si eres mayor de edad.");
+     alert("Estas entrando en una pagina de apuestas. Pulsa Aceptar si eres mayor de edad.");
+     validaform();
+	
    }
 </script>
 
@@ -126,7 +128,7 @@
 
 
 <section id="busca">
-<label> Busqueda: <input type=“search” name=“busqueda" ></label> 
+<label> Busqueda: <input type=“search” name=“busqueda" placeholder="Busca aqui"></label> 
 <button> Ir </button>
 </section>
 
@@ -135,15 +137,14 @@
 
 <article id="datos">
 <h4>*Introduce tus datos personales para acceder a nuestras paginas de juegos de apuestas.*</h4>
- <form method="post" id="formdata"
- action="http://www.casino.es/">
- <label> Nombre: <input name="nombre" placeholder="Introduce tu nombre"></label><br>
-<label> Correo electrónico: <input type="email" nombre="correo" placeholder="nombre@servidor.com"></label><br>
-<label> Edad: <input type="number" name="edad" min="18" value="18"></label><br>
-<label> NIF:  <input type="name" name="NIF"></label><br>
-<label> Mujer: <input type="radio" name="sexo" id="mujer" value="mujer"></label><br>
-<label> Hombre: <input type="radio" name="sexo" id="hombre" value="hombre"></label><br>
-<button onclick="enviar()"> Enviar </button>
+ <form method="post" id="formdata" action="http://www.casino.es/">
+ <label> Nombre: <input autofocus type="text" id="nomape" name="nom" placeholder="Nombre y apellidos" required></label><br>
+<label> Correo electrónico: <input type="email" name="correo" placeholder="nombre@servidor.com" required></label><br>
+<label> Edad: <input type="number"  name="edad" min="18" value="18" required></label><br>
+<label> NIF:  <input type="name" name="NIF" pattern="\S{9}" placeholder="12345678X" required></label><br>
+<label> Mujer: <input type="radio" name="sexo" id="mujer" value="mujer" required></label><br>
+<label> Hombre: <input type="radio" name="sexo" id="hombre" value="hombre" required></label><br>
+<button onclick="enviar()"> Enviar </button> 
 </form>
 </article>
 

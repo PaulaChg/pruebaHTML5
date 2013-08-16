@@ -6,21 +6,26 @@
   
   
   function validaform(){
-    if($("nombre").val()==" "){
-	    alert("Por favor, introduce tu nombre y apellidos");
-		$("nombre").focus();
-		return false;
+  
+	if(document.getElementById('nomape').value == "" || document.getElementById('correo').value == "" || document.getElementById('NIF').value == ""  ){
+	   alert("Porfavor, rellene todos los campos");
 	}
-	if($("correo").val()==""){
+
+	/*
+	if($("correo").val()==" "){
 	   alert("Por favor, introduce tu correo electronico");
 	   $("correo").focus();
-	   return false;
+	  /* return false;
 	}
+	
 	if($("NIF").val()==""){
 	   alert("Por favor, introduce tu DNI junto a la letra correspondiente");
 	   $("NIF").focus();
-	   return false;
+	   /*return false;
 	}
-	
-	return true;
+	*/
 }
+
+
+
+
